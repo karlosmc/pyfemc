@@ -1,0 +1,78 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ProyectoFacturaElectronica
+</name>
+</assembly>
+<members>
+<member name="M:ProyectoFacturaElectronica.ClsErrorExcepcion.#ctor(System.String,System.Exception)">
+ Construye una instancia en base a un mensaje de error y la una excepción original.
+
+</member><member name="M:ProyectoFacturaElectronica.ClsErrorExcepcion.#ctor(System.String)">
+ Construye una instancia en base a un mensaje de error.
+
+</member><member name="P:ProyectoFacturaElectronica.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:ProyectoFacturaElectronica.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:ProyectoFacturaElectronica.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="F:ProyectoFacturaElectronica.Serializador.Conf_key">
+	<summary>
+ Cadena Base64 del certificado Digital
+ </summary>
+</member><member name="P:ProyectoFacturaElectronica.Serializador.PasswordCertificado">
+	<summary>
+ Si el certificado digital tiene Clave se coloca aquí
+ </summary>
+</member><member name="P:ProyectoFacturaElectronica.Serializador.DigestValue">
+	<summary>
+ Hash de la Firma del Documento
+ </summary>
+</member><member name="P:ProyectoFacturaElectronica.Serializador.TipoDocumento">
+	<summary>
+ Tipo de Documento segun SUNAT
+ </summary>
+</member><member name="M:ProyectoFacturaElectronica.Serializador.GenerarXmlFisico``1(``0,System.String)">
+	<summary>
+ Generar el XML en base a una Clase con el atributo Serializable
+ </summary>
+	<typeparam name="T">Clase a serializar</typeparam>
+	<param name="request">Instancia de la Clase</param>
+	<param name="nombreArchivo">Nombre del archivo resultante</param>
+	<returns>Devuelve la ruta del Archivo generado</returns>
+</member><member name="M:ProyectoFacturaElectronica.Serializador.GenerarXml``1(``0)">
+	<summary>
+ Genera el XML basado en una clase con el atributo Serializable
+ </summary>
+	<typeparam name="T">Clase a serializar</typeparam>
+	<param name="objectToSerialize">Instancia de la Clase</param>
+	<returns>Devuelve una cadena Base64 del archivo XML</returns>
+</member><member name="M:ProyectoFacturaElectronica.Serializador.GenerarZip(System.String,System.String)">
+	<summary>
+ Genera el ZIP del XML basandose en la trama del XML.
+ </summary>
+	<param name="tramaXml">Cadena Base64 con el contenido del XML</param>
+	<param name="nombreArchivo">Nombre del archivo ZIP</param>
+	<returns>Devuelve Cadena Base64 del archizo ZIP</returns>
+</member><member name="P:ProyectoFacturaElectronica.AdditionalMonetaryTotal.Percent">
+	<summary>
+ Para el porcentaje de Detraccion.
+ </summary>
+</member><member name="P:ProyectoFacturaElectronica.Beta1.statusResponse.content">
+	<comentarios/>
+</member><member name="P:ProyectoFacturaElectronica.Beta1.statusResponse.statusCode">
+	<comentarios/>
+</member><member name="T:ProyectoFacturaElectronica.Beta1.statusResponse">
+	<comentarios/>
+</member>
+</members>
+</doc>
